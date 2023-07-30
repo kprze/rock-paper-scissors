@@ -14,3 +14,15 @@ function getComputerChoice(){
     
     return choice;
 }
+
+function getPlayerChoice(){
+    let choice = prompt("Choose: Rock, Paperor Scissors").toLowerCase();
+
+    if (choice === 'rock' || choice === 'scissors' || choice === 'paper'){
+        return choice;
+    }
+    else{
+        alert('Incorrect choice!')
+        return getPlayerChoice();
+    }
+}
