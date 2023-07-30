@@ -50,7 +50,7 @@ function getComputerChoice(){
 }
 
 function getPlayerChoice(){
-    let choice = prompt("Choose: Rock, Paperor Scissors").toLowerCase();
+    let choice = prompt("Choose: Rock, Paper or Scissors").toLowerCase();
 
     if (choice === 'rock' || choice === 'scissors' || choice === 'paper'){
         return choice;
