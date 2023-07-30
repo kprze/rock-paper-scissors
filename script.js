@@ -26,3 +26,21 @@ function getPlayerChoice(){
         return getPlayerChoice();
     }
 }
+
+function playRound(computerChoice, playerChoice){
+    if (computerChoice == playerChoice){
+        return 0;
+    }
+    else if (computerChoice === 'rock' && playerChoice === 'scissors'){
+        return 2;
+    }
+    else if (computerChoice === 'scissors' && playerChoice === 'paper'){
+        return 2;
+    }
+    else if (computerChoice === 'paper' && playerChoice === 'rock'){
+        return 2;
+    }
+    else{
+        return 1;
+    }
+}
