@@ -4,7 +4,7 @@ function game(){
     let playerScore = 0;
     let computerScore = 0;
 
-    for (i = 0; i < 5; i++){
+    // for (i = 0; i < 5; i++){
         let computerChoice = getComputerChoice();
         let playerChoice = getPlayerChoice();
 
@@ -30,7 +30,7 @@ function game(){
     }
 
     console.log(`The score is: \n Player - ${playerScore} \n Computer - ${computerScore}`);
-}
+//}
 
 function getComputerChoice(){
     let choice = '';

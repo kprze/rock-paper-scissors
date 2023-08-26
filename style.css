@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: center;
+    font-size: 128px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.selection_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.selection {
+    background-color: #ffcc99;
+    border: 20px outset #f7a14c;
+    border-radius: 5em;
+    margin: 0 100px;
+}
+
+.selection:hover{
+    background-color: #f7a14c;
+    border: 20px outset #ffcc99;
+}
