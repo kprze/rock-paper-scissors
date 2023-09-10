@@ -1,49 +1,51 @@
 .header {
     display: flex;
     justify-content: center;
-    font-size: 128px;
+    font-size: 28px;
     font-family: 'Roboto', sans-serif;
 }
 
 .selectionContainer {
     display: flex;
     align-items: center;
-    justify-content: center;   
+    justify-content: center;
+    margin: 28px 0;   
 }
 
 .selection {
     background-color: #ffcc99;
-    border: 20px outset #f7a14c;
+    border: 10px outset #f7a14c;
     border-radius: 5em;
-    margin: 0 100px;
+    margin: 0 50px;    
+}
+
+.selection img{
+    width: 200px;
 }
 
 .selection:hover {
     background-color: #f7a14c;
-    border: 20px outset #ffcc99;
+    border: 10px outset #ffcc99;
 }
 
 .scoreHeader {
     display: flex;
     justify-content: center;
-    font-size: 128px;
+    font-size: 28px;
     font-family: 'Roboto', sans-serif;
-    margin-top: 64px;
 }
 
 .score {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    font-size: 128px;
+    font-size: 28px;
     font-family: 'Roboto', sans-serif;
-    margin-top: 64px;
 }
 
 .roundResult {
     display: flex;
     justify-content: center;
-    font-size: 128px;
+    font-size: 28px;
     font-family: 'Roboto', sans-serif;
-    margin-top: 64px;
 }
